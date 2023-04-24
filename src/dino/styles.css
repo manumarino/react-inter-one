@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    box-sizing: border-box; 
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#root {
+    width: 100%;
+}
+
+.dino-stationary {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
